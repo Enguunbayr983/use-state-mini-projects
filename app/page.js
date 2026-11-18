@@ -70,7 +70,7 @@ export default function Home() {
         <LightSwitch />
         <ScoreBoard />
         <SecretMessage />
-        <Pizzaria />
+        {/* <Pizzaria /> */}
       </div>
     </div>
   );
