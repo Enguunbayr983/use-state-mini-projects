@@ -26,7 +26,7 @@ export const ToDoList = () => {
   return (
     <div className="bg-white rounded-xl">
       <div className="p-5">
-        <h1 className="text-black font-bold">✅ToDo List</h1>
+        <h1 className="text-black font-bold text-[30px]">✅ToDo List</h1>
 
         <h2 className="text-gray-400 font-bold">{toDoList.length} Work</h2>
       </div>
