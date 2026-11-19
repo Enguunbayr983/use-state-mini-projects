@@ -56,21 +56,37 @@
 //     </div>
 //   );
 // }
-"use client";
+// "use client";
 
 import { LightSwitch } from "./components/LightSwitch";
 import { Pizzaria } from "./components/Pizzaria";
 import { ScoreBoard } from "./components/ScoreBoard";
 import { SecretMessage } from "./components/SecretMessage";
+// import { ToDoList } from "./components/ToDoList";
 
-export default function Home() {
-  return (
-    <div className="min-h-screen bg-gray-600  p-6">
-      <div className="flex gap-[50px]">
+// export default function Home() {
+//   return (
+//     <div className="min-h-screen bg-gray-600  p-6">
+{
+  /* <div className="flex gap-[50px]">
         <LightSwitch />
         <ScoreBoard />
         <SecretMessage />
-        {/* <Pizzaria /> */}
+        <Pizzaria />
+      </div> */
+}
+//       <ToDoList />
+//     </div>
+//   );
+// }
+(" use client ");
+import { ToDoList } from "./components/ToDoList";
+
+export default function Home() {
+  return (
+    <div className="min-h-screen bg-gray-300 flex justify-center py-20">
+      <div>
+        <ToDoList />
       </div>
     </div>
   );
